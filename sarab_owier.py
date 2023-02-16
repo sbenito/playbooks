@@ -11,13 +11,13 @@ from datetime import datetime, timedelta
 def on_start(container):
     phantom.debug('on_start() called')
 
-    # call 'playbook_activedirectory_reset_password_1' block
-    playbook_activedirectory_reset_password_1(container=container)
+    # call 'sarab_with_numbers_19893' block
+    sarab_with_numbers_19893(container=container)
 
     return
 
-def playbook_activedirectory_reset_password_1(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, **kwargs):
-    phantom.debug("playbook_activedirectory_reset_password_1() called")
+def sarab_with_numbers_19893(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, **kwargs):
+    phantom.debug("sarab_with_numbers_19893() called")
 
     ################################################################################
     ## Custom Code Start
