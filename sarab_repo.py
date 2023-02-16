@@ -11,13 +11,13 @@ from datetime import datetime, timedelta
 def on_start(container):
     phantom.debug('on_start() called')
 
-    # call 'sdfsdfsdfsdfsdfdfs' block
-    sdfsdfsdfsdfsdfdfs(container=container)
+    # call 'sdfsdfkjshkasdh_2934843_sldkfj' block
+    sdfsdfkjshkasdh_2934843_sldkfj(container=container)
 
     return
 
-def sdfsdfsdfsdfsdfdfs(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, **kwargs):
-    phantom.debug("sdfsdfsdfsdfsdfdfs() called")
+def sdfsdfkjshkasdh_2934843_sldkfj(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, **kwargs):
+    phantom.debug("sdfsdfkjshkasdh_2934843_sldkfj() called")
 
     ################################################################################
     ## Custom Code Start
