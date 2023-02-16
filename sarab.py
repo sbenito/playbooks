@@ -11,7 +11,8 @@ from datetime import datetime, timedelta
 def on_start(container):
     phantom.debug('on_start() called')
 
-
+    # call 'playbook_activedirectory_reset_password_1' block
+    playbook_activedirectory_reset_password_1(container=container)
 
     return
 

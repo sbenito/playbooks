@@ -5,8 +5,16 @@
     "coa": {
         "data": {
             "description": "",
-            "edges": [],
-            "hash": "cdd8e4900ede65c1446b05d58714aa57bf0aed67",
+            "edges": [
+                {
+                    "id": "port_0_to_port_2",
+                    "sourceNode": "0",
+                    "sourcePort": "0_out",
+                    "targetNode": "2",
+                    "targetPort": "2_in"
+                }
+            ],
+            "hash": "114eab7319723716672c36fe504c166e958ff56d",
             "nodes": {
                 "0": {
                     "data": {
@@ -22,7 +30,7 @@
                     "type": "start",
                     "warnings": {},
                     "x": 1000,
-                    "y": 419.9999999999998
+                    "y": 419.99999999999966
                 },
                 "1": {
                     "data": {
@@ -73,7 +81,7 @@
         "schema": "5.0.9",
         "version": "10155.0.0.114586"
     },
-    "create_time": "2023-02-16T18:26:28.579930+00:00",
+    "create_time": "2023-02-16T18:27:27.425941+00:00",
     "draft_mode": false,
     "labels": [
         "*"
