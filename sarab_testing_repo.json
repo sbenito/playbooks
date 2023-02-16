@@ -1,0 +1,97 @@
+{
+    "blockly": false,
+    "blockly_xml": "<xml></xml>",
+    "category": "Uncategorized",
+    "coa": {
+        "data": {
+            "description": "",
+            "edges": [
+                {
+                    "id": "port_0_to_port_2",
+                    "sourceNode": "0",
+                    "sourcePort": "0_out",
+                    "targetNode": "2",
+                    "targetPort": "2_in"
+                }
+            ],
+            "hash": "ac044076a335cd9f50318494564a0b3e3bf5fd5e",
+            "nodes": {
+                "0": {
+                    "data": {
+                        "advanced": {
+                            "join": []
+                        },
+                        "functionName": "on_start",
+                        "id": "0",
+                        "type": "start"
+                    },
+                    "errors": {},
+                    "id": "0",
+                    "type": "start",
+                    "warnings": {},
+                    "x": 1000,
+                    "y": 419.9999999999999
+                },
+                "1": {
+                    "data": {
+                        "advanced": {
+                            "join": []
+                        },
+                        "functionName": "on_finish",
+                        "id": "1",
+                        "type": "end"
+                    },
+                    "errors": {},
+                    "id": "1",
+                    "type": "end",
+                    "warnings": {},
+                    "x": 1000,
+                    "y": 1000
+                },
+                "2": {
+                    "data": {
+                        "advanced": {
+                            "join": []
+                        },
+                        "functionId": 1,
+                        "functionName": "playbook_aws_disable_user_accounts_1",
+                        "id": "2",
+                        "inputs": {
+                            "aws_username": {
+                                "datapaths": [
+                                    "artifact:*.cef.dest_mac"
+                                ],
+                                "deduplicate": false
+                            }
+                        },
+                        "playbookName": "aws_disable_user_accounts",
+                        "playbookRepo": 9,
+                        "playbookRepoName": "name ALSKDJ 1928312398",
+                        "playbookType": "data",
+                        "synchronous": false,
+                        "type": "playbook"
+                    },
+                    "errors": {},
+                    "id": "2",
+                    "type": "playbook",
+                    "warnings": {},
+                    "x": 1097,
+                    "y": 620
+                }
+            },
+            "notes": ""
+        },
+        "input_spec": null,
+        "output_spec": null,
+        "playbook_type": "automation",
+        "python_version": "3",
+        "schema": "5.0.9",
+        "version": "10155.0.0.114586"
+    },
+    "create_time": "2023-02-16T19:06:55.558549+00:00",
+    "draft_mode": false,
+    "labels": [
+        "*"
+    ],
+    "tags": []
+}
