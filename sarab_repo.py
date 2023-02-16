@@ -11,7 +11,8 @@ from datetime import datetime, timedelta
 def on_start(container):
     phantom.debug('on_start() called')
 
-
+    # call 'playbook_alert_deescalation_for_test_machines_1' block
+    playbook_alert_deescalation_for_test_machines_1(container=container)
 
     return
 

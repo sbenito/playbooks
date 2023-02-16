@@ -5,8 +5,16 @@
     "coa": {
         "data": {
             "description": "",
-            "edges": [],
-            "hash": "56b47b653e0484db202481a36176ea6d18886fde",
+            "edges": [
+                {
+                    "id": "port_0_to_port_2",
+                    "sourceNode": "0",
+                    "sourcePort": "0_out",
+                    "targetNode": "2",
+                    "targetPort": "2_in"
+                }
+            ],
+            "hash": "4aaaca80c6b45d0eec087e0ebac7f2be1c516609",
             "nodes": {
                 "0": {
                     "data": {
@@ -59,11 +67,7 @@
                     "errors": {},
                     "id": "2",
                     "type": "playbook",
-                    "warnings": {
-                        "context": [
-                            "Connect block to playbook flow."
-                        ]
-                    },
+                    "warnings": {},
                     "x": 1092,
                     "y": 530
                 }
@@ -77,7 +81,7 @@
         "schema": "5.0.9",
         "version": "10155.0.0.114586"
     },
-    "create_time": "2023-02-16T19:01:18.626120+00:00",
+    "create_time": "2023-02-16T19:01:30.854867+00:00",
     "draft_mode": false,
     "labels": [
         "*"
