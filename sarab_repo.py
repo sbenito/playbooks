@@ -11,13 +11,13 @@ from datetime import datetime, timedelta
 def on_start(container):
     phantom.debug('on_start() called')
 
-    # call 'playbook_alert_deescalation_for_test_machines_1' block
-    playbook_alert_deescalation_for_test_machines_1(container=container)
+    # call 'sdfsdfsdfsdfsdfdfs' block
+    sdfsdfsdfsdfsdfdfs(container=container)
 
     return
 
-def playbook_alert_deescalation_for_test_machines_1(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, **kwargs):
-    phantom.debug("playbook_alert_deescalation_for_test_machines_1() called")
+def sdfsdfsdfsdfsdfdfs(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, **kwargs):
+    phantom.debug("sdfsdfsdfsdfsdfdfs() called")
 
     ################################################################################
     ## Custom Code Start
